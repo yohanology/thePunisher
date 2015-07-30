@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<title>The Punisher</title>
+  <title>The Punisher</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="scripts/thePunisher.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rock+Salt|Helvetica+Neue">
+
+
 </head>
 <body>
-	<div class="container-fluid">
-  		<div class="row">
-    		<div class="col-xs-12">
-          <div class="jumbotron">
-            <p><a class="btn btn-primary btn-lg" href="#" role="button" id="punisher">Get PUNISHED</a></p>
-            <div class="col-xs-12 punish-bubble">
-              <p>The punishment is:</p>
-            <h1 id="punishment"></h1>
-            </div>
-            <img class="img-responsive" src="http://i.gr-assets.com/images/S/photo.goodreads.com/hostedimages/1380387069r/746834.jpg">
-          </div>
-    		</div>
-  		</div>
-	</div>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="scripts/thePunisher.js"></script>
+  <div class="container-fluid">
+      <div class="row">
+        <div class="text-center">
+          <h2>General Assembly <span id="blood">punishment</span> tool</h2>
+          <a id="punisher" class="btn btn-primary btn-lg" role="button" id="punisher">GET PUNISHED</a>
+        </div>
+        <div id="punishment" class="text-center"></div>
+      </div>
+  </div>
 </body>
 </html>

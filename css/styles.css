@@ -1,32 +1,87 @@
-.jumbotron {
-	margin: 20px auto;
-	padding: 0;
-	text-align: center;
-	background-color: #fff;
+body {
+	background-color: #f1c40f;
+	font-family: 'Helvetica Neue', 'Helvetica';
+	color: #000;
 }
 
-.jumbotron img {
-	border: 10px solid #000;
+.container-fluid {
+	margin: 5rem;
 }
 
-.jumbotron p {
-	margin-top: 20px;
+#blood {
+	font-family: 'Rock Salt';
+	color: #000;
+
 }
 
-.punish-bubble {
-	background-image: url(http://cliparts.co/cliparts/Lid/ox4/Lidox4AET.png);
-	background-size: 100% 100%;
-	padding: 30px 30px 150px 30px;
-	margin: 20px;
+.btn-primary {
+	background-color: #000;
+	border: 5px solid #000;
+	color: #f1c40f;
+	font-size: 5rem;
 }
 
-#punisher:hover {
-	background-color: #fff;
-	border: 3px solid red;
-	color: red;
+.btn-primary:hover {
+	background-color: #D92818;
+	border: 5px solid #D92818;
+	color: #f1c40f;
+}
+
+#punishment {
+	color: #000;
+	font-size: 8rem;
+	font-family: 'Rock Salt';
+	margin-top: 5rem;
 }
 
 #punisher {
-	background-color: red;
-	border: 3px solid red;
+	margin-top: 5px;
+}
+
+.animated {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -4000deg);
+    transform: rotate3d(0, 0, 1, -4000deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -4000deg);
+    transform: rotate3d(0, 0, 1, -4000deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
 }
